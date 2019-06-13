@@ -1,0 +1,25 @@
+{
+  "name": "vfile-reporter-junit",
+  "version": "0.0.0",
+  "description": "jUnit reporter for VFile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellyselden/vfile-reporter-junit.git"
+  },
+  "author": "Kelly Selden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vfile/vfile-reporter-pretty/issues"
+  },
+  "homepage": "https://github.com/vfile/vfile-reporter-pretty#readme",
+  "dependencies": {
+    "vfile-to-eslint": "^2.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "5"
+  }
+}
