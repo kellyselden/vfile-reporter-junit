@@ -13,9 +13,9 @@
   "author": "Kelly Selden",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vfile/vfile-reporter-pretty/issues"
+    "url": "https://github.com/kellyselden/vfile-reporter-junit/issues"
   },
-  "homepage": "https://github.com/vfile/vfile-reporter-pretty#readme",
+  "homepage": "https://github.com/kellyselden/vfile-reporter-junit#readme",
   "dependencies": {
     "vfile-to-eslint": "^2.0.1"
   },
