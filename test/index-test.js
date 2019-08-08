@@ -12,10 +12,12 @@ describe(vfileReporterJunit.name, function() {
       .use(recommended)
       .processSync('## Hello world!');
 
+    file.path = '/foo/bar.baz';
+
     expect(vfileReporterJunit([file])).to.equal(`<?xml version="1.0" encoding="utf-8"?>
 <testsuites>
-<testsuite package="org.eslint" time="0" tests="1" errors="1" name="undefined">
-<testcase time="0" name="org.eslint.remark-lint:final-newline"><failure message="Missing newline character at end of file"><![CDATA[line 1, col 1, Warning - Missing newline character at end of file (remark-lint:final-newline)]]></failure></testcase>
+<testsuite package="org.eslint" time="0" tests="1" errors="1" name="/foo/bar.baz">
+<testcase time="0" name="org.eslint.remark-lint:final-newline" classname="/foo/bar"><failure message="Missing newline character at end of file"><![CDATA[line 1, col 1, Warning - Missing newline character at end of file (remark-lint:final-newline)]]></failure></testcase>
 </testsuite>
 </testsuites>
 `);

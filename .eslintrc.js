@@ -14,8 +14,7 @@ module.exports = {
         mocha: true
       },
       plugins: ['mocha'],
-      // extends: 'plugin:mocha/recommended',
-      rules: Object.assign({}, require('eslint-plugin-mocha').configs.recommended.rules)
+      extends: 'plugin:mocha/recommended'
     }
   ]
 };
