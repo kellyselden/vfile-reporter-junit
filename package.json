@@ -3,8 +3,12 @@
   "version": "1.0.1",
   "description": "jUnit reporter for VFile",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --ext js,json",
+    "test": "mocha --recursive"
   },
   "repository": {
     "type": "git",
@@ -16,10 +20,26 @@
     "url": "https://github.com/kellyselden/vfile-reporter-junit/issues"
   },
   "homepage": "https://github.com/kellyselden/vfile-reporter-junit#readme",
+  "engines": {
+    "node": "8"
+  },
   "dependencies": {
     "vfile-to-eslint": "^2.0.1"
   },
   "peerDependencies": {
     "eslint": "5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-sane": "0.8.5",
+    "eslint-config-sane-node": "0.2.2",
+    "eslint-plugin-json-files": "0.6.2",
+    "eslint-plugin-mocha": "^6.0.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prefer-let": "^1.0.1",
+    "mocha": "^6.2.0",
+    "remark": "^11.0.1",
+    "remark-preset-lint-recommended": "^3.0.3"
   }
 }
