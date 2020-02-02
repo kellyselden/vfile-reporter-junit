@@ -1,12 +1,12 @@
 'use strict';
 
-const { expect } = require('chai');
+const { describe } = require('./helpers/mocha');
+const { expect } = require('./helpers/chai');
 const vfileReporterJunit = require('..');
 const remark = require('remark');
 const recommended = require('remark-preset-lint-recommended');
 
-// eslint-disable-next-line mocha/no-setup-in-describe
-describe(vfileReporterJunit.name, function() {
+describe(vfileReporterJunit, function() {
   it('works', function() {
     let file = remark()
       .use(recommended)
