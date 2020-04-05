@@ -19,7 +19,8 @@
           "name": "@kellyselden/node-template",
           "options": [
             "--repo-slug=kellyselden/vfile-reporter-junit",
-            "--travis-ci"
+            "--travis-ci",
+            "--renovate"
           ]
         }
       ]
