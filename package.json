@@ -39,7 +39,7 @@
     "eslint-plugin-mocha": "^6.2.2",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prefer-let": "^1.0.1",
-    "mocha": "^7.0.0",
+    "mocha": "^8.0.0",
     "mocha-helpers": "^4.2.1",
     "remark": "^11.0.1",
     "remark-preset-lint-recommended": "^3.0.3",
