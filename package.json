@@ -27,7 +27,7 @@
     "vfile-to-eslint": "^2.0.1"
   },
   "peerDependencies": {
-    "eslint": "6"
+    "eslint": ">=6"
   },
   "devDependencies": {
     "@kellyselden/node-template": "1.0.0",
