@@ -10,13 +10,13 @@ jUnit reporter for VFile
 ```js
 const remark = require('remark');
 const recommended = require('remark-preset-lint-recommended');
-const vfileToJunit = require('vfile-to-junit');
+const vfileReporterJunit = require('vfile-reporter-junit');
 
 let file = remark()
   .use(recommended)
   .processSync('## Hello world!')
 
-console.log(vfileToJunit([file]))
+console.log(vfileReporterJunit([file]))
 ```
 
 ```sh
