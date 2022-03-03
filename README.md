@@ -15,7 +15,7 @@ let file = remark()
   .use(recommended)
   .processSync('## Hello world!')
 
-console.log(vfileReporterJunit([file]))
+console.log(await vfileReporterJunit([file]))
 ```
 
 ```sh

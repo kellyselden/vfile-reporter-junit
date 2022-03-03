@@ -1,10 +1,14 @@
 'use strict';
 
 const vfileToEslint = require('vfile-to-eslint');
-const eslintFormatterJunit = require('eslint/lib/cli-engine/formatters/junit');
+const { ESLint } = require('eslint');
 
-function vfileReporterJunit(vfiles) {
-  return eslintFormatterJunit(vfileToEslint(vfiles));
+async function vfileReporterJunit(vfiles) {
+  let eslint = new ESLint();
+
+  let { format } = await eslint.loadFormatter('junit');
+
+  return format(vfileToEslint(vfiles));
 }
 
 module.exports = vfileReporterJunit;
