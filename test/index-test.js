@@ -4,10 +4,11 @@ const { describe } = require('./helpers/mocha');
 const { expect } = require('./helpers/chai');
 const vfileReporterJunit = require('..');
 const remark = require('remark');
-const recommended = require('remark-preset-lint-recommended');
 
 describe(vfileReporterJunit, function() {
   it('works', async function() {
+    let { default: recommended } = await import('remark-preset-lint-recommended');
+
     let file = remark()
       .use(recommended)
       .processSync('## Hello world!');
