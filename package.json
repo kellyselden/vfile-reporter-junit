@@ -24,7 +24,7 @@
     "node": ">=16.13"
   },
   "dependencies": {
-    "vfile-to-eslint": "^3.0.0"
+    "vfile-to-eslint": "^4.0.0"
   },
   "peerDependencies": {
     "eslint": ">=8"
