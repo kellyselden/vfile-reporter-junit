@@ -1,6 +1,6 @@
 {
   "name": "vfile-reporter-junit",
-  "version": "6.1.0",
+  "version": "7.0.0",
   "description": "jUnit reporter for VFile",
   "main": "index.js",
   "files": [
