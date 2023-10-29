@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/kellyselden/vfile-reporter-junit#readme",
   "engines": {
-    "node": ">=16.13"
+    "node": ">=18.12"
   },
   "dependencies": {
     "vfile-to-eslint": "^4.0.0"
