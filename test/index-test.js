@@ -5,6 +5,7 @@ const { expect } = require('./helpers/chai');
 const vfileReporterJunit = require('..');
 
 describe(vfileReporterJunit, function() {
+
   it('works', async function() {
     let [
       { remark },
