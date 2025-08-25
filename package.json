@@ -43,7 +43,7 @@
     "mocha-helpers": "^10.0.0",
     "remark": "^15.0.0",
     "remark-preset-lint-recommended": "^7.0.0",
-    "renovate-config-standard": "2.3.0",
+    "renovate-config-standard": "2.4.2",
     "standard-node-template": "7.2.0"
   }
 }
