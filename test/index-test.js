@@ -8,10 +8,10 @@ describe(vfileReporterJunit, function() {
   it('works', async function() {
     let [
       { remark },
-      { default: recommended }
+      { default: recommended },
     ] = await Promise.all([
       import('remark'),
-      import('remark-preset-lint-recommended')
+      import('remark-preset-lint-recommended'),
     ]);
 
     let file = remark()

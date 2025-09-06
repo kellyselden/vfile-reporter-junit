@@ -7,10 +7,10 @@ async function vfileReporterJunit(vfiles) {
 
   let [
     { format },
-    { toESLint }
+    { toESLint },
   ] = await Promise.all([
     eslint.loadFormatter('junit'),
-    import('vfile-to-eslint')
+    import('vfile-to-eslint'),
   ]);
 
   return format(toESLint(vfiles));
