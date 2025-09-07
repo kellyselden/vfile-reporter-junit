@@ -21,6 +21,7 @@
     "test": "mocha"
   },
   "dependencies": {
+    "eslint-formatter-junit": "^8.40.0",
     "vfile-to-eslint": "^4.0.0"
   },
   "devDependencies": {
