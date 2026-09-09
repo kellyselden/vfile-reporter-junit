@@ -1,6 +1,6 @@
 {
   "name": "vfile-reporter-junit",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "description": "jUnit reporter for VFile",
   "homepage": "https://github.com/kellyselden/vfile-reporter-junit#readme",
   "bugs": {
